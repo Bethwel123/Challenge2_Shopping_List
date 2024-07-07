@@ -1,0 +1,69 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #153677, #4e085f);
+}
+
+.divClass {
+    background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 70%;
+    height: auto;
+    border: 3px solid orangered;
+    border-radius: 10px;
+}
+
+h1 {
+    background-color: #2d6bbd;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.shoppingList {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.shoppingList li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.shoppingList li.purchased {
+    text-decoration: line-through;
+    color: #000504;
+}
+
+
+.itemInput{
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: beige;
+}
+
+button {
+    background-color: #3067af;
+    color: orangered;
+    padding: 8px 20px;
+    margin: 7px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+
